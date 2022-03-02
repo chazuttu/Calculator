@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int f,s,a;
-                f=Integer.parseInt(et1.getText().toString());
-                s=Integer.parseInt(et2.getText().toString());
-                a=f+s;
+                int fo,so,a;
+                fo=Integer.parseInt(et1.getText().toString());
+                so=Integer.parseInt(et2.getText().toString());
+                a=fo+so;
                 tv.setText("Result=" +a);
 
 
@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int f,s,a;
-                f=Integer.parseInt(et1.getText().toString());
-                s=Integer.parseInt(et2.getText().toString());
-                a=f-s;
+                int fo,so,a;
+                fo=Integer.parseInt(et1.getText().toString());
+                so=Integer.parseInt(et2.getText().toString());
+                a=fo-so;
                 tv.setText("Result=" +a);
 
 
@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
         mul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int f,s,a;
-                f=Integer.parseInt(et1.getText().toString());
-                s=Integer.parseInt(et2.getText().toString());
-                a=f*s;
+                int fo,so,a;
+                fo=Integer.parseInt(et1.getText().toString());
+                so=Integer.parseInt(et2.getText().toString());
+                a=fo*so;
                 tv.setText("Result=" +a);
 
 
@@ -71,10 +71,10 @@ public class MainActivity extends AppCompatActivity {
         div.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int f,s,a;
-                f=Integer.parseInt(et1.getText().toString());
-                s=Integer.parseInt(et2.getText().toString());
-                a=f/s;
+                int fo,so,a;
+                fo=Integer.parseInt(et1.getText().toString());
+                so=Integer.parseInt(et2.getText().toString());
+                a=fo/so;
                 tv.setText("Result=" +a);
 
 
